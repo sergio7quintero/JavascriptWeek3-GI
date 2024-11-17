@@ -5,7 +5,6 @@ class Person {
         this.age = age;
     }
 
-
 exersice() {
     console.log("Running is fun! I do it everyday")
 }
@@ -13,7 +12,6 @@ exersice() {
 fetchJob() {
     console.log(`${this.name} is a ${this.job}`);
 }
-
 }
 
 class Programmer extends Person{
